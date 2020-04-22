@@ -1,0 +1,9 @@
+[submodule "src/mavros"]
+	path = src/mavros
+	url = https://github.com/okarimpour/mavros.git
+[submodule "src/mavlink"]
+	path = src/mavlink
+	url = https://github.com/okarimpour/mavlink.git
+[submodule "src/Firmware"]
+	path = src/Firmware
+	url = https://github.com/okarimpour/Firmware.git
