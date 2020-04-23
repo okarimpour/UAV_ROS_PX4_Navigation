@@ -1,10 +1,10 @@
 mavros/mavros
-/home/omid/catkin_ws/devel/.private/mavros/cmake.lock /home/omid/catkin_ws/devel/./cmake.lock
-/home/omid/catkin_ws/devel/.private/mavros/share/mavros/cmake/mavrosConfig.cmake /home/omid/catkin_ws/devel/share/mavros/cmake/mavrosConfig.cmake
-/home/omid/catkin_ws/devel/.private/mavros/share/mavros/cmake/mavrosConfig-version.cmake /home/omid/catkin_ws/devel/share/mavros/cmake/mavrosConfig-version.cmake
-/home/omid/catkin_ws/devel/.private/mavros/lib/libmavros_plugins.so /home/omid/catkin_ws/devel/lib/libmavros_plugins.so
-/home/omid/catkin_ws/devel/.private/mavros/lib/libmavros.so /home/omid/catkin_ws/devel/lib/libmavros.so
-/home/omid/catkin_ws/devel/.private/mavros/lib/python2.7/dist-packages/mavros/__init__.py /home/omid/catkin_ws/devel/lib/python2.7/dist-packages/mavros/__init__.py
-/home/omid/catkin_ws/devel/.private/mavros/lib/pkgconfig/mavros.pc /home/omid/catkin_ws/devel/lib/pkgconfig/mavros.pc
-/home/omid/catkin_ws/devel/.private/mavros/lib/mavros/mavros_node /home/omid/catkin_ws/devel/lib/mavros/mavros_node
-/home/omid/catkin_ws/devel/.private/mavros/lib/mavros/gcs_bridge /home/omid/catkin_ws/devel/lib/mavros/gcs_bridge
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/cmake.lock /home/omid/UAV_ROS_PX4_Navigation/devel/./cmake.lock
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/share/mavros/cmake/mavrosConfig.cmake /home/omid/UAV_ROS_PX4_Navigation/devel/share/mavros/cmake/mavrosConfig.cmake
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/share/mavros/cmake/mavrosConfig-version.cmake /home/omid/UAV_ROS_PX4_Navigation/devel/share/mavros/cmake/mavrosConfig-version.cmake
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/libmavros_plugins.so /home/omid/UAV_ROS_PX4_Navigation/devel/lib/libmavros_plugins.so
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/libmavros.so /home/omid/UAV_ROS_PX4_Navigation/devel/lib/libmavros.so
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/python2.7/dist-packages/mavros/__init__.py /home/omid/UAV_ROS_PX4_Navigation/devel/lib/python2.7/dist-packages/mavros/__init__.py
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/pkgconfig/mavros.pc /home/omid/UAV_ROS_PX4_Navigation/devel/lib/pkgconfig/mavros.pc
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/mavros/mavros_node /home/omid/UAV_ROS_PX4_Navigation/devel/lib/mavros/mavros_node
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/mavros/lib/mavros/gcs_bridge /home/omid/UAV_ROS_PX4_Navigation/devel/lib/mavros/gcs_bridge

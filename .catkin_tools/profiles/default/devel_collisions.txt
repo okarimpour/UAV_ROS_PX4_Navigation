@@ -1,1 +1,2 @@
-/home/omid/catkin_ws/devel/./cmake.lock 11
+/home/omid/catkin_ws/devel/./cmake.lock 7
+/home/omid/UAV_ROS_PX4_Navigation/devel/./cmake.lock 60

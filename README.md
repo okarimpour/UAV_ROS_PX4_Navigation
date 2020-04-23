@@ -10,11 +10,22 @@ $ git clone https://github.com/okarimpour/UAV_ROS_PX4_Navigation.git --recurse-s
 ```
 $ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
 ```
-3. build:(PX4 will get error!)
+3. build:
 ```
 $ catkin clean --all -y
 $ catkin build
 ```
+Sidenote: If you are having problem with build:
+```
+$ cd UAV_ROS_PX4_Navigation/logs/px4
+$ vim build.make.XXX.log
+
+# Most likly you are missing packaging so:
+$ pip3 install --user empy numpy keras packaging
+$ pip install --user empy numpy keras packaging
+$ sudo apt-get install libgstreamer-plugins-base1.0-dev
+```
+
 4. To fix "make px4_sitl jmavsim" errors caused by using Java 11:
 ```
 $ sudo apt install openjdk-8-jdk

@@ -1,0 +1,7 @@
+mavros/test_mavros
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/cmake.lock /home/omid/UAV_ROS_PX4_Navigation/devel/./cmake.lock
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig-version.cmake /home/omid/UAV_ROS_PX4_Navigation/devel/share/test_mavros/cmake/test_mavrosConfig-version.cmake
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/share/test_mavros/cmake/test_mavrosConfig.cmake /home/omid/UAV_ROS_PX4_Navigation/devel/share/test_mavros/cmake/test_mavrosConfig.cmake
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/lib/libmavros_sitl_test.so /home/omid/UAV_ROS_PX4_Navigation/devel/lib/libmavros_sitl_test.so
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/lib/test_mavros/sitl_test_node /home/omid/UAV_ROS_PX4_Navigation/devel/lib/test_mavros/sitl_test_node
+/home/omid/UAV_ROS_PX4_Navigation/devel/.private/test_mavros/lib/pkgconfig/test_mavros.pc /home/omid/UAV_ROS_PX4_Navigation/devel/lib/pkgconfig/test_mavros.pc
