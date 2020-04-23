@@ -1,0 +1,13 @@
+[35m[1mScanning dependencies of target uorb_headers[0m
+[  1%] [34m[1mGenerating uORB topic headers[0m
+Failed to import packaging: No module named packaging
+
+You may need to install it using:
+    pip3 install --user packaging
+
+msg/CMakeFiles/uorb_headers.dir/build.make:330: recipe for target 'uORB/topics/uORBTopics.hpp' failed
+CMakeFiles/Makefile2:721: recipe for target 'msg/CMakeFiles/uorb_headers.dir/all' failed
+Makefile:162: recipe for target 'all' failed
+make[2]: *** [uORB/topics/uORBTopics.hpp] Error 1
+make[1]: *** [msg/CMakeFiles/uorb_headers.dir/all] Error 2
+make: *** [all] Error 2

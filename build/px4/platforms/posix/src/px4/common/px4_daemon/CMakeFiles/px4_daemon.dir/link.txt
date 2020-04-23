@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libpx4_daemon.a  CMakeFiles/px4_daemon.dir/pxh.cpp.o CMakeFiles/px4_daemon.dir/history.cpp.o CMakeFiles/px4_daemon.dir/client.cpp.o CMakeFiles/px4_daemon.dir/server.cpp.o CMakeFiles/px4_daemon.dir/server_io.cpp.o CMakeFiles/px4_daemon.dir/sock_protocol.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libpx4_daemon.a

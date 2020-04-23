@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libmixer.a  CMakeFiles/mixer.dir/MixerGroup.cpp.o CMakeFiles/mixer.dir/load_mixer_file.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libmixer.a

@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__airspeed_selector.a  CMakeFiles/modules__airspeed_selector.dir/airspeed_selector_main.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__airspeed_selector.a

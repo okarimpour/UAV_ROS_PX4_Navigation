@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/librc.a  CMakeFiles/rc.dir/crsf.cpp.o CMakeFiles/rc.dir/st24.cpp.o CMakeFiles/rc.dir/sumd.cpp.o CMakeFiles/rc.dir/sbus.cpp.o CMakeFiles/rc.dir/dsm.cpp.o CMakeFiles/rc.dir/common_rc.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/librc.a

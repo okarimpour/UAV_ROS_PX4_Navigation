@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libterrain_estimation.a  CMakeFiles/terrain_estimation.dir/terrain_estimator.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libterrain_estimation.a

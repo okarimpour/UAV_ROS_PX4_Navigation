@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/liblib__cdev__test__cdev_test.a  CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_example.cpp.o CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_main.cpp.o CMakeFiles/lib__cdev__test__cdev_test.dir/cdevtest_start.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/liblib__cdev__test__cdev_test.a

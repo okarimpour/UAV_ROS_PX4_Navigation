@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__attitude_estimator_q.a  CMakeFiles/modules__attitude_estimator_q.dir/attitude_estimator_q_main.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__attitude_estimator_q.a

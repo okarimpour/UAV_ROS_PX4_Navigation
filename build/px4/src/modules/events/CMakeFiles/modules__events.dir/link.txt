@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__events.a  CMakeFiles/modules__events.dir/rc_loss_alarm.cpp.o CMakeFiles/modules__events.dir/send_event.cpp.o CMakeFiles/modules__events.dir/set_leds.cpp.o CMakeFiles/modules__events.dir/status_display.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__events.a

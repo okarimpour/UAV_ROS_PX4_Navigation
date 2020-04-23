@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__camera_trigger.a  CMakeFiles/drivers__camera_trigger.dir/camera_trigger.cpp.o CMakeFiles/drivers__camera_trigger.dir/interfaces/src/camera_interface.cpp.o CMakeFiles/drivers__camera_trigger.dir/interfaces/src/pwm.cpp.o CMakeFiles/drivers__camera_trigger.dir/interfaces/src/seagull_map2.cpp.o CMakeFiles/drivers__camera_trigger.dir/interfaces/src/gpio.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__camera_trigger.a

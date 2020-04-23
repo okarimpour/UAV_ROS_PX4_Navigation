@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__gps.a  CMakeFiles/drivers__gps.dir/gps.cpp.o CMakeFiles/drivers__gps.dir/devices/src/gps_helper.cpp.o CMakeFiles/drivers__gps.dir/devices/src/mtk.cpp.o CMakeFiles/drivers__gps.dir/devices/src/ashtech.cpp.o CMakeFiles/drivers__gps.dir/devices/src/ubx.cpp.o CMakeFiles/drivers__gps.dir/devices/src/rtcm.cpp.o CMakeFiles/drivers__gps.dir/devices/src/emlid_reach.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__gps.a

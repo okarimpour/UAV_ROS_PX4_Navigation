@@ -1,0 +1,8 @@
+prefix=/home/omid/catkin_ws/devel/.private/libmavconn
+
+Name: libmavconn
+Description: Description of libmavconn
+Version: 1.1.0
+Cflags: -I/home/omid/catkin_ws/src/mavros/libmavconn/include -I/usr/include -I/opt/ros/melodic/include
+Libs: -L${prefix}/lib -lmavconn /usr/lib/x86_64-linux-gnu/libboost_system.so /usr/lib/x86_64-linux-gnu/libconsole_bridge.so.0.4
+Requires: 

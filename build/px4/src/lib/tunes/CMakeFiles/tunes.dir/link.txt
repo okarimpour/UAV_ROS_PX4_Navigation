@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libtunes.a  CMakeFiles/tunes.dir/tunes.cpp.o CMakeFiles/tunes.dir/default_tunes.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libtunes.a

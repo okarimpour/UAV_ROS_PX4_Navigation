@@ -1,0 +1,2 @@
+/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libEkf2Utility.a  CMakeFiles/Ekf2Utility.dir/PreFlightChecker.cpp.o
+/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libEkf2Utility.a
