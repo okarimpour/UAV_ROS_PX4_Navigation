@@ -1,19 +1,31 @@
 # UAV_ROS_PX4_Navigation
-1. Install ROS "Melodic, "Gazebo 9, PX4 and MAVROS on Ubuntu 18.04
+This project is based on ROS "Melodic", and Gazebo 9
 
-1. follow the steps on [px4.io](https://dev.px4.io/v1.9.0/en/) site for your OS
-
-1. To fix "make px4_sitl jmavsim" errors caused by using Java 11:
+1. Go to home directory and clone the project:
 ```
-sudo apt install openjdk-8-jdk
-sudo update-alternatives --config java # choose 8
-cd ~/catkin_ws/src/Firmware
-rm -rf Tools/jMAVSim/out
+$ cd
+$ git clone https://github.com/okarimpour/UAV_ROS_PX4_Navigation.git --recurse-submodules 
 ```
-4. To fix the "make px4_sitl gazebo" errors:
+2. Add "control_toolbox" to the workspace and build it from source:
 ```
-sudo apt install libgstreamer1.0-dev
-sudo apt install gstreamer1.0-plugins-good
-sudo apt install gstreamer1.0-plugins-bad
-sudo apt install gstreamer1.0-plugins-ugly
+$ rosdep install --from-paths src --ignore-src --rosdistro melodic -y
+```
+3. build:(PX4 will get error!)
+```
+$ catkin clean --all -y
+$ catkin build
+```
+4. To fix "make px4_sitl jmavsim" errors caused by using Java 11:
+```
+$ sudo apt install openjdk-8-jdk
+$ sudo update-alternatives --config java # choose 8
+$ cd ~/catkin_ws/src/Firmware
+$ rm -rf Tools/jMAVSim/out
+```
+5. To fix the "make px4_sitl gazebo" errors:
+```
+$ sudo apt install libgstreamer1.0-dev
+$ sudo apt install gstreamer1.0-plugins-good
+$ sudo apt install gstreamer1.0-plugins-bad
+$ sudo apt install gstreamer1.0-plugins-ugly
 ```
