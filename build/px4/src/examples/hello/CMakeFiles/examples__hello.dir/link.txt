@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libexamples__hello.a  CMakeFiles/examples__hello.dir/hello_main.cpp.o CMakeFiles/examples__hello.dir/hello_start.cpp.o CMakeFiles/examples__hello.dir/hello_example.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libexamples__hello.a

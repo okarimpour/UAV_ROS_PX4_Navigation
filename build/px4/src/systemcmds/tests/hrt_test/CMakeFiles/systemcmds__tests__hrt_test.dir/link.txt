@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libsystemcmds__tests__hrt_test.a  CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test_main.cpp.o CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test_start.cpp.o CMakeFiles/systemcmds__tests__hrt_test.dir/hrt_test.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libsystemcmds__tests__hrt_test.a

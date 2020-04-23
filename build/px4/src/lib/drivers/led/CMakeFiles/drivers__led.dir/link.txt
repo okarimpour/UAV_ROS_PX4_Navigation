@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__led.a  CMakeFiles/drivers__led.dir/led.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libdrivers__led.a

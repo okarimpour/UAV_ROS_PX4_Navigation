@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libvehicle_angular_velocity.a  CMakeFiles/vehicle_angular_velocity.dir/VehicleAngularVelocity.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libvehicle_angular_velocity.a

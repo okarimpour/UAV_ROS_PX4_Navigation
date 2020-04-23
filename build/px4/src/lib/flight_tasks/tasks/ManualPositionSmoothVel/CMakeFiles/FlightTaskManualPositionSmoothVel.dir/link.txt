@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libFlightTaskManualPositionSmoothVel.a  CMakeFiles/FlightTaskManualPositionSmoothVel.dir/FlightTaskManualPositionSmoothVel.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libFlightTaskManualPositionSmoothVel.a

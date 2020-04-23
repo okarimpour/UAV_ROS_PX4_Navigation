@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libparameters.a  CMakeFiles/parameters.dir/parameters.cpp.o CMakeFiles/parameters.dir/param_translation.cpp.o CMakeFiles/parameters.dir/px4_parameters.c.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libparameters.a

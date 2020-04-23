@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libsystemcmds__motor_ramp.a  CMakeFiles/systemcmds__motor_ramp.dir/motor_ramp.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libsystemcmds__motor_ramp.a

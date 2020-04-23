@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libvehicle_imu.a  CMakeFiles/vehicle_imu.dir/VehicleIMU.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libvehicle_imu.a

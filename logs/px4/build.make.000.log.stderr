@@ -1,3 +1,0 @@
-make[2]: *** [uORB/topics/uORBTopics.hpp] Error 1
-make[1]: *** [msg/CMakeFiles/uorb_headers.dir/all] Error 2
-make: *** [all] Error 2

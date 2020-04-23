@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__simulator.a  CMakeFiles/modules__simulator.dir/simulator.cpp.o CMakeFiles/modules__simulator.dir/simulator_mavlink.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libmodules__simulator.a

@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/libcdev.a  CMakeFiles/cdev.dir/CDev.cpp.o CMakeFiles/cdev.dir/posix/cdev_platform.cpp.o CMakeFiles/cdev.dir/posix/vfile.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/libcdev.a

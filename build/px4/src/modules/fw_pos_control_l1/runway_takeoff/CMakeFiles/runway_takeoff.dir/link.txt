@@ -1,2 +1,0 @@
-/usr/bin/ar qc /home/omid/catkin_ws/devel/.private/px4/lib/librunway_takeoff.a  CMakeFiles/runway_takeoff.dir/RunwayTakeoff.cpp.o
-/usr/bin/ranlib /home/omid/catkin_ws/devel/.private/px4/lib/librunway_takeoff.a
