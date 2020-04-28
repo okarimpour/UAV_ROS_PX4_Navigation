@@ -25,18 +25,38 @@ $ pip3 install --user empy numpy keras packaging
 $ pip install --user empy numpy keras packaging
 $ sudo apt-get install libgstreamer-plugins-base1.0-dev
 ```
-
-4. To fix "make px4_sitl jmavsim" errors caused by using Java 11:
+4. Bringing up jmavsim:
+```
+$ cd UAV_ROS_PX4_Navigation/src/Firmware/
+$ make px4_sitl jmavsim
+pxh> commander takeoff
+```
+To fix "make px4_sitl jmavsim" errors caused by using Java 11:
 ```
 $ sudo apt install openjdk-8-jdk
 $ sudo update-alternatives --config java # choose 8
 $ cd ~/catkin_ws/src/Firmware
 $ rm -rf Tools/jMAVSim/out
 ```
-5. To fix the "make px4_sitl gazebo" errors:
+
+5. Bringing up Gazebo:
+```
+$ make px4_sitl gazebo
+
+#Gazebo
+$ DONT_RUN=1 make px4_sitl_default gazebo
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/ px4_sitl_default
+$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
+$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+$ roslaunch px4 posix_sitl.launch
+```
+To fix the "make px4_sitl gazebo" errors:
 ```
 $ sudo apt install libgstreamer1.0-dev
 $ sudo apt install gstreamer1.0-plugins-good
 $ sudo apt install gstreamer1.0-plugins-bad
 $ sudo apt install gstreamer1.0-plugins-ugly
 ```
+
+6. 
