@@ -42,14 +42,6 @@ $ rm -rf Tools/jMAVSim/out
 5. Bringing up Gazebo:
 ```
 $ make px4_sitl gazebo
-
-#Gazebo
-$ DONT_RUN=1 make px4_sitl_default gazebo
-$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
-$ source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/ px4_sitl_default
-$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
-$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
-$ roslaunch px4 posix_sitl.launch
 ```
 To fix the "make px4_sitl gazebo" errors:
 ```
@@ -58,5 +50,31 @@ $ sudo apt install gstreamer1.0-plugins-good
 $ sudo apt install gstreamer1.0-plugins-bad
 $ sudo apt install gstreamer1.0-plugins-ugly
 ```
+6. Let's check the off board node on Gazebo:
+```
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ roscore
 
-6. 
+$ roslaunch mavros px4.launch fcu_url:="udp://:14540@127.0.0.1:14557"
+
+#launch Gazebo with the drone on a new terminal
+$ cd UAV_ROS_PX4_Navigation/src/Firmware/
+$ DONT_RUN=1 make px4_sitl_default gazebo
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ source Tools/setup_gazebo.bash $(pwd) $(pwd)/build/ px4_sitl_default
+$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)
+$ export ROS_PACKAGE_PATH=$ROS_PACKAGE_PATH:$(pwd)/Tools/sitl_gazebo
+$ roslaunch px4 posix_sitl.launch
+
+#Run the offb_node on a new terminal
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ rosrun mavros offb_node
+
+#Echo the states on a new terminal
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ rostopic echo /mavros/state
+
+#Check the connections using rqt_graph on a new terminal
+$ source ~/UAV_ROS_PX4_Navigation/devel/setup.bash
+$ rosrun rqt_graph rqt_graph
+```
